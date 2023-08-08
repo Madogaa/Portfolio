@@ -1,0 +1,77 @@
+.s-half {
+  width: 50vw;
+  height: 50vw;
+}
+
+.s-less{
+  width: 40vw;
+  height: 40vw;
+}
+
+.boton{
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  min-width: 6rem;
+  }
+
+  .spikes {
+    position: relative;
+    background: #242424;
+    height: 10vh;
+  }
+
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 35px;
+    background-size: 35px 100%;
+    background-image: linear-gradient(135deg, #353535 25%, transparent 25%), linear-gradient(225deg, #6b6b6b 25%, transparent 25%);
+    background-position: 0 0;
+  }
+
+  .entrycont{
+    background-color: #242424;
+  }
+
+
+  .wavecontainer{
+    position: relative;
+    background: #fff;
+    padding-bottom: 10rem;
+    width: 100%;
+  }
+
+  .wave {
+    position: absolute;
+    height: 10rem;
+    width: 100vw;
+    background: #fff;
+    bottom: 0;
+  }
+
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #242424;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+    left: -1.5%;
+    top: 40%;
+  }

@@ -1,0 +1,135 @@
+.body{
+  width: 100%;
+  display:flex;
+  padding-top: 10vh;
+  background-color: #242424;
+}
+
+line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+  visibility: hidden;
+}
+
+.animation-svg{
+  max-width: 600px;
+  overflow: visible;
+  stroke:white;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.animation-div {
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #2f2f2f;
+  font-weight: 600;
+
+}
+
+.card1{
+  color: #2f2f2f;
+  font-weight: 600;
+  position:absolute;
+  top:28rem;
+  right: 10rem;
+  width: 33rem;
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+.card2{
+  color: #2f2f2f;
+  font-weight: 600;
+  position:absolute;
+  top:38rem;
+  left: 10rem;
+  width: 33rem;
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+.card3{
+  color: #2f2f2f;
+  font-weight: 600;
+  position:absolute;
+  top:14.5rem;
+  left: 10rem;
+  width: 33rem;
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+.text{
+  fill: white;
+  font-size: 15px;
+  font-family: "Signika Negative", sans-serif;
+  visibility: hidden;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Estilos para pantallas pequeñas (hasta 640px) */
+@media (max-width: 1350px) {
+  .animation-svg{
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .card1 {
+    position: relative;
+    right: auto;
+    top: auto; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card2 {
+    top: auto;
+    left: auto;
+    position: relative; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card3 {
+    top: auto;
+    left: auto;
+    position: relative; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .contenedor{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100vw;
+  }
+}
+
+/* Estilos para pantallas medianas (641px - 1023px) */
+@media (min-width: 1350px) and (max-width: 1480px) {
+  .card1 {
+    right: 2rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card2 {
+    left: 2rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card3 {
+    left: 2rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+}
+
+/* Estilos para pantallas grandes (1024px - 1279px) */
+@media (min-width: 1480px) and (max-width: 1620px) {
+  .card1 {
+    right: 5rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card2 {
+    left: 5rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+  .card3 {
+    left: 5rem; /* Cambia el color de fondo para pantallas pequeñas */
+  }
+}
+
+/* Estilos para pantallas extra grandes (a partir de 1280px) */
+@media (min-width: 1620px) {
+
+}

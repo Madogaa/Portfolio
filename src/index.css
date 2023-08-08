@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Consolas'; /* Nombre que utilizarás para referenciar la fuente */
+  src: url('src/assets/consolaz.ttf') format('truetype'); /* Ruta relativa al archivo .ttf */
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-family: 'Consola', monospace;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+}

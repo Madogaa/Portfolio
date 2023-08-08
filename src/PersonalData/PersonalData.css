@@ -1,0 +1,7 @@
+.changeColor{
+    fill: white;
+}
+
+.changeColor:hover{
+    fill: rgb(64, 64, 140);
+}
