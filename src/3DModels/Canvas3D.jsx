@@ -6,8 +6,6 @@ import Model from './Model';
 function Canvas3D({isRotating}) {
   const [rotation, setRotation] = useState([0, 0, 0]);
 
-
-
   useEffect(() => {
     let frameId;
 

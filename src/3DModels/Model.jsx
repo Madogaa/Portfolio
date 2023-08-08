@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/model.glb')
+  const { nodes, materials } = useGLTF('/src/assets/model.glb')
   return (
     <group {...props} dispose={null}>
       <primitive object={nodes.Hips} />
@@ -24,4 +24,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/model.glb')
+useGLTF.preload('/src/assets/model.glb')
