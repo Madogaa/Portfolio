@@ -12,7 +12,6 @@ export default function App() {
 
   return (
     <>
-    <EntryComponent />
     <AnimationComponent />
     <section className="spikes"></section>
     <section className="wavecontainer">
