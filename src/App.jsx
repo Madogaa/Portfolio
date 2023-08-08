@@ -3,7 +3,7 @@ import React from "react";
 import AnimationComponent from "./Animation/AnimationComponent";
 
 import "./App.css"
-import Skills from "./Skills/Skills";
+import Skills from "./Skills/Skills"
 import EntryComponent from "./Entry/EntryComponent";
 
 
