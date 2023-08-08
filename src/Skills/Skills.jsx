@@ -73,14 +73,14 @@ const skills = [
 function Skills() {
   return (
     <>
-      <div className="skills flex flex-col p-20 gap-10">
+      <div className="skills p-20">
         {skills.map((skill, index) => (
-          <>
-            <h1 key={index} className="text-2xl font-semibold self-center">
+          <div className="flex flex-col p-5 gap-10" key={index}>
+            <h1 className="text-2xl font-semibold self-center">
               {skill.desc}
             </h1>
-            <TechContainer skills={skill.skills} />
-          </>
+            <TechContainer  skills={skill.skills} />
+          </div>
         ))}
       </div>
     </>

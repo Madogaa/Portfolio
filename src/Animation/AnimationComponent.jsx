@@ -34,7 +34,6 @@ const AnimationComponent = () => {
         },
       })
       .to(".ball01", { autoAlpha: 1, duration: 0.05 })
-      .from(".theLine", { drawSVG: 0, duration: 10 }, 0)
       .to(
         ".ball01",
         {
