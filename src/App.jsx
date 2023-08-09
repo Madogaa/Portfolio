@@ -6,6 +6,7 @@ import EntryComponent from "./Entry/EntryComponent";
 import Projects from "./Projects/Projects";
 
 import "./App.css"
+import ContactForm from "./Contact/ContactForm";
 
 
 
@@ -24,7 +25,11 @@ export default function App() {
       <div className="wave"></div>
     </section>
     <Projects />
+    <div className="">
+      <ContactForm />
     </div>
+    </div>
+
 
   );
 }
