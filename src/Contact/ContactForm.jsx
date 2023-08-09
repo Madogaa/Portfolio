@@ -10,7 +10,7 @@ const ContactForm = () => {
       e.preventDefault();
 
       try {
-        const response = await axios.post('http://localhost:3001/send-email', {
+        const response = await axios.post('https://backend-chi-fawn.vercel.app/send-email', {
           email,
           subject,
           description,
