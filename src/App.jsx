@@ -1,17 +1,19 @@
 import React from "react";
 
 import AnimationComponent from "./Animation/AnimationComponent";
-
-import "./App.css"
 import Skills from "./Skills/Skills"
 import EntryComponent from "./Entry/EntryComponent";
+import Projects from "./Projects/Projects";
+
+import "./App.css"
+
 
 
 export default function App() {
 
 
   return (
-    <>
+    <div className="app">
     <EntryComponent />
     <AnimationComponent />
     <section className="spikes"></section>
@@ -21,6 +23,8 @@ export default function App() {
     </div>
       <div className="wave"></div>
     </section>
-    </>
+    <Projects />
+    </div>
+
   );
 }

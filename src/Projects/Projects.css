@@ -1,0 +1,11 @@
+.semi-black{
+    color: #242424;
+}
+
+.text-shadow-inner-md {
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .inner-shadow-icon {
+    filter: drop-shadow(-1.5px -1.5px 1px rgba(0, 0, 0, 0.4));
+  }

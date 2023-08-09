@@ -21,12 +21,12 @@ function PersonalData() {
           <a href="#">contactarme</a>
         </p>
         <div className="flex gap-12 p-12 w-full justify-center">
-          <a href="#">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mario-dominguez-garcia-dg/">
             <BsLinkedin
               className="changeColor"
               size={32} />
           </a>
-          <a href="#">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Madogaa">
             <BsGithub
               className='changeColor'
               size={32} />

@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
 .s-half {
   width: 50vw;
   height: 50vw;
@@ -43,15 +53,16 @@
     position: relative;
     background: #fff;
     padding-bottom: 10rem;
-    width: 100%;
+    width: 100vw;
   }
 
   .wave {
     position: absolute;
-    height: 10rem;
-    width: 100vw;
+    height: 10vh;
+    width: 100%;
     background: #fff;
     bottom: 0;
+    left: 0;
   }
 
   .wave::before, .wave::after {
