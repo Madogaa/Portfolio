@@ -19,7 +19,7 @@ export default function App() {
     <AnimationComponent />
     <section className="spikes"></section>
     <section className="wavecontainer">
-    <div className="text-gray-900 w-full">
+    <div className="text-gray-900 w-full md:pt-16">
       <Skills />
     </div>
       <div className="wave"></div>

@@ -1,0 +1,27 @@
+.s-xl{
+    width: 70vw;
+    height: 70vw;
+  }
+
+
+  @media (min-width: 768px){
+    .s-xl{
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+    @media (min-width: 1300px) and (max-width: 1500px) {
+        .s-xl{
+            width: 45vw;
+            height: 45vw;
+        }
+    }
+
+
+    @media (min-width: 1500px) {
+        .s-xl{
+            width: 40vw;
+            height: 40vw;
+        }
+    }

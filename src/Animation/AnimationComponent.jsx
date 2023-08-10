@@ -117,7 +117,7 @@ const AnimationComponent = () => {
 
       <div className="contenedor">
 
-        <div className="card1 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
+        <div className="card card1 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
           <div className="flex flex-col gap-2 px-5 py-3 ">
             <h2 className="border-b-2 pb-0.5 text-lg">
               Desarrollo de Aplicaciones Multiplataforma (DAM)
@@ -140,7 +140,7 @@ const AnimationComponent = () => {
           </div>
         </div>
 
-        <div className="card2 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
+        <div className="card card2 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
           <div className="flex flex-col gap-2 px-5 py-3 ">
             <h2 className="border-b-2 pb-0.5 text-lg">
               Bachillerato Cientifico
@@ -163,7 +163,7 @@ const AnimationComponent = () => {
           </div>
         </div>
 
-        <div className="card3 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
+        <div className="card card3 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
           <div className="flex flex-col gap-2 px-5 py-3 ">
             <h2 className="border-b-2 pb-0.5 text-lg">
               Data Analyst Jr.

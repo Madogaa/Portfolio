@@ -73,16 +73,18 @@ const skills = [
 function Skills() {
   return (
     <>
-      <div className="skills p-20">
-        {skills.map((skill, index) => (
-          <div className="flex flex-col p-5 gap-10" key={index}>
-            <h1 className="text-2xl font-semibold self-center">
-              {skill.desc}
-            </h1>
-            <TechContainer  skills={skill.skills} />
+      {skills.map((skill, index) => (
+        <div className="py-5" key={index}>
+          <h1 className="text-2xl font-semibold text-center py-4">{skill.desc}</h1>
+          <div className="flex flex-wrap justify-center p-4 md:p-10 sm:p-6 gap-5 sm:gap-8">
+            {skill.skills.map((tech, techIndex) => (
+              <div className="w-fit" key={techIndex}>
+                <TechContainer skills={[tech]} />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </>
   );
 }

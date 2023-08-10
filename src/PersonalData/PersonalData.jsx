@@ -4,8 +4,8 @@ import "./PersonalData.css";
 
 function PersonalData() {
   return (
-    <div className="flex flex-col h-screen p-20">
-      <div className="m-auto">
+    <div className="flex flex-col h-screen p-4 sm:p-8 md:py-20 xl:px-10 2xl:px-16">
+      <div className="lg:m-auto">
         <div className="border border-2 border-white w-fit rounded-full p-1">
           <BsFillPersonFill color="white" size={32} />
         </div>

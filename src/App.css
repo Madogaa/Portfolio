@@ -8,16 +8,6 @@ html {
   overflow-x: hidden;
 }
 
-.s-half {
-  width: 50vw;
-  height: 50vw;
-}
-
-.s-less{
-  width: 40vw;
-  height: 40vw;
-}
-
 .boton{
   padding: 0.75rem;
   border-radius: 0.5rem;
