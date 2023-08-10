@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Consolas'; /* Nombre que utilizarás para referenciar la fuente */
-  src: url('src/assets/consolaz.ttf') format('truetype'); /* Ruta relativa al archivo .ttf */
+  src: url('consolaz.ttf') format('truetype'); /* Ruta relativa al archivo .ttf */
 }
 
 :root {
@@ -13,10 +13,11 @@
   font-weight: 400;
 
   font-family: 'Consola', monospace;
-  color-scheme: light dark;
+  color-scheme: dark;
+
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
+
   text-rendering: optimizeLegibility;
 }
