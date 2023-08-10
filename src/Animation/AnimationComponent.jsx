@@ -117,6 +117,29 @@ const AnimationComponent = () => {
 
       <div className="contenedor">
 
+      <div className="card card3 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
+          <div className="flex flex-col gap-2 px-5 py-3 ">
+            <h2 className="border-b-2 pb-0.5 text-lg">
+              Data Analyst Jr.
+            </h2>
+            <div className="flex justify-start">
+              <BsBuildings className="place-self-center" size={32} />
+              <a href="https://www.icsred.com" className="pl-2 self-center underline" rel="noreferrer" target="_blank" >ICSRed</a>
+            </div>
+
+            <div className="flex justify-start">
+              <TiLocation className="place-self-center" size={32} />
+              <h4 className="pl-2 self-center">
+                Toledo, Castilla-La-Mancha, Spain
+              </h4>
+            </div>
+            <div className="flex justify-start">
+              <BsFillBookmarkStarFill className="place-self-center" size={32} />
+              <h6 className="pl-2 self-center w-full">Python, Numpy, Pandas, Plotly, Excel, Git, Azure Devops, Scrum, etc. </h6>
+            </div>
+          </div>
+        </div>
+
         <div className="card card1 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
           <div className="flex flex-col gap-2 px-5 py-3 ">
             <h2 className="border-b-2 pb-0.5 text-lg">
@@ -159,29 +182,6 @@ const AnimationComponent = () => {
             <div className="flex justify-start">
               <BsFillBookmarkStarFill size={32} />
               <h6 className="pl-2 self-center">Titulacion: 8</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="card card3 bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-200 shadow shadow-2xl shadow-zinc-700">
-          <div className="flex flex-col gap-2 px-5 py-3 ">
-            <h2 className="border-b-2 pb-0.5 text-lg">
-              Data Analyst Jr.
-            </h2>
-            <div className="flex justify-start">
-              <BsBuildings className="place-self-center" size={32} />
-              <a href="https://www.icsred.com" className="pl-2 self-center underline" rel="noreferrer" target="_blank" >ICSRed</a>
-            </div>
-
-            <div className="flex justify-start">
-              <TiLocation className="place-self-center" size={32} />
-              <h4 className="pl-2 self-center">
-                Toledo, Castilla-La-Mancha, Spain
-              </h4>
-            </div>
-            <div className="flex justify-start">
-              <BsFillBookmarkStarFill className="place-self-center" size={32} />
-              <h6 className="pl-2 self-center w-full">Python, Numpy, Pandas, Plotly, Excel, Git, Azure Devops, Scrum, etc. </h6>
             </div>
           </div>
         </div>

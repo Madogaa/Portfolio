@@ -23,12 +23,12 @@ const ContactForm = () => {
     };
 
     return (
-      <form className='flex flex-col w-1/2 py-24 m-auto gap-6' onSubmit={handleSubmit}>
+      <form className='flex flex-col w-full px-6 lg:w-1/2 py-24 m-auto gap-6' onSubmit={handleSubmit}>
         <h1 className='text-3xl font-bold self-center'>Conctactame</h1>
-        <span className='grid grid-cols-10'>
-          <p className='col-span-2 self-center font-semibold'>Email: </p>
+        <span className='grid grid-cols-12'>
+          <p className='col-span-5 lg:col-span-2 self-center font-semibold'>Email: </p>
           <input
-          className='col-span-8 p-2 border-b-2'
+          className='col-span-7 lg:col-span-8 p-2 border-b-2'
           type="email"
           placeholder="Email"
           value={email}
@@ -36,10 +36,10 @@ const ContactForm = () => {
           required
           />
         </span>
-        <span className='grid grid-cols-10'>
-          <p className='col-span-2 self-center font-semibold'>Asunto: </p>
+        <span className='grid grid-cols-12'>
+          <p className='col-span-5 lg:col-span-2 self-center font-semibold'>Asunto: </p>
           <input
-          className='col-span-8 p-2 border-b-2'
+          className='col-span-7 lg:col-span-8 p-2 border-b-2'
           type="text"
           placeholder="Subject"
           value={subject}
@@ -47,10 +47,10 @@ const ContactForm = () => {
           required
         />
         </span>
-        <span className='grid grid-cols-10'>
-          <p className='col-span-2 self-center font-semibold'>Descripcion: </p>
+        <span className='grid grid-cols-12'>
+          <p className='col-span-5 lg:col-span-2 self-center font-semibold'>Descripcion: </p>
           <textarea
-          className='col-span-8 p-2 border-b-2'
+          className='col-span-7 lg:col-span-8 p-2 border-b-2'
           placeholder="Description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}

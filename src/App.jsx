@@ -25,9 +25,7 @@ export default function App() {
       <div className="wave"></div>
     </section>
     <Projects />
-    <div className="">
-      <ContactForm />
-    </div>
+    <ContactForm />
     </div>
 
 

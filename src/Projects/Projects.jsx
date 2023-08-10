@@ -22,7 +22,7 @@ function Projects() {
   return (
     <div className="flex flex-col pt-48 gap-10">
     <h1 className="text-center text-3xl font-bold">Projects</h1>
-    <div className="px-36 grid grid-cols-3 gap-16">
+    <div className="px-4 lg:px-16 xl:px-36 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 max-w-lg md:max-w-none m-auto gap-16">
         {projects.map((project,index) => (
             <Project key={index} logo={project.logo} project={project} />
         ))
