@@ -10,7 +10,7 @@ function PersonalData() {
           <BsFillPersonFill color="white" size={32} />
         </div>
         <div className="border-t-2 border-white w-full p-2 mt-2.5"></div>
-        <p className="text-lg">
+        <p className="text-lg text-white">
           Soy un Desarrollador Full Stack, apasionado del proceso resolutivo de
           retos complejos e innovadores. Soy una persona muy curiosa e inquieta
           que disfruta aprendiendo. Actualmente me encuentro en constante
