@@ -6,8 +6,7 @@ const ContactForm = () => {
     const [subject, setSubject] = useState('');
     const [description, setDescription] = useState('');
 
-    const handleSubmit = async (e) => {
-      e.preventDefault();
+    const handleSubmit = async () => {
 
       try {
         const response = await axios.post('https://backend-chi-fawn.vercel.app/send-email', {
