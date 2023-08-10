@@ -12,7 +12,7 @@ function EntryComponent() {
   };
 
   return (
-    <div className="entrycont grid grid-cols-12 h-screen">
+    <div className="entrycont grid grid-cols-12 min-h-screen">
       <div className="col-span-12 lg:col-span-6 2xl:col-span-5 flex">
         <div className="w-full sm:m-auto">
           <div className="font-bold mb-4 md:mb-6 text-center text-2xl md:text-3xl">
