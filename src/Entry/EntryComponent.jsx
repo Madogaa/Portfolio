@@ -16,7 +16,8 @@ function EntryComponent() {
       <div className="col-span-12 lg:col-span-6 2xl:col-span-5 flex">
         <div className="w-full sm:m-auto">
           <div className="font-bold mb-4 md:mb-6 text-center text-2xl md:text-3xl">
-            <Typewriter
+            Mario Dominguez Garcia
+            {/* <Typewriter
               options={{ loop: true }}
               onInit={(typewriter) => {
                 typewriter
@@ -24,7 +25,7 @@ function EntryComponent() {
                   .pauseFor(8000)
                   .start();
               }}
-            />
+            /> */}
           </div>
           <div className="m-auto s-xl lg:p-8">
             <Canvas3D isRotating={isRotating} />
