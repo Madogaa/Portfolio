@@ -7,14 +7,16 @@ const projects = [
     {
         logo: BiLogoVuejs,
         title: "DotShare",
+        link: "#",
         desc:"Demo de una red social de compartición de apuntes, desarrollada para el TFG del grado en Desarrollo de Aplicaciones Multiplataforma. <br />Titulación obtenida: <b>10</b>",
         skills: "Vue, Spring, HTML, CSS, JS, BS, SQL, MySQL, Tomcat, Web Scraping",
     },
     {
         logo: BiLogoReact,
         title: "Shopycheep",
+        link: "https://sc.magoda.dev",
         desc:"Demo de un comparador de precios de productos de momento de supermercados como Dia y condis",
-        skills: "React, Django, HTML, CSS, JS, TailwindCss, SQL, MySQL, Web Scraping",
+        skills: "React, Node, Django, HTML, CSS, JS, TailwindCss, SQL, MySQL, Web Scraping",
     },
 ]
 
