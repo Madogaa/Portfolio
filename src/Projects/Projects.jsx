@@ -14,7 +14,7 @@ const projects = [
     {
         logo: BiLogoReact,
         title: "Shopycheep",
-        link: "https://sc.magoda.dev",
+        link: "https://sc.madoga.dev",
         desc:"Demo de un comparador de precios de productos de momento de supermercados como Dia y condis",
         skills: "React, Node, Django, HTML, CSS, JS, TailwindCss, SQL, MySQL, Web Scraping",
     },
