@@ -76,12 +76,14 @@ line {
     align-items: center;
     row-gap: 2rem;
     width: 100vw;
+    padding: 1rem;
   }
 
   .card{
     position: static;
     opacity: 1;
     margin: auto;
+    max-width: 100%;
   }
 
 }
