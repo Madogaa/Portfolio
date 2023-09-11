@@ -5,6 +5,13 @@ import Project from "./Project";
 
 const projects = [
     {
+        logo: BiLogoReact,
+        title: "Daily",
+        link: "https://day.madoga.dev",
+        desc:"Calendario, donde podras crear y administrar tus eventos mas proximos desde cualquier lugar",
+        skills: "React, Node, HTML, CSS, JS, TailwindCss, MaterialUI, SQL, MySQL",
+    },
+    {
         logo: BiLogoVuejs,
         title: "DotShare",
         link: "#",
